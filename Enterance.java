@@ -1,6 +1,6 @@
 package com.company;
 
-public class Enterance extends  Door{
+public class Enterance implements Door{
 
     private String doorhandle;
     private String lock;
