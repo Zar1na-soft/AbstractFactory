@@ -24,4 +24,8 @@ public class Interior implements Door{
     public String getMaterial() {
         return this.material;
     }
+     @Override
+    public String toString(){
+        return "doorhandle= "+this.getDoorhandle()+", lock="+this.getLock()+", material="+this.getMaterial();
+    }
 }
