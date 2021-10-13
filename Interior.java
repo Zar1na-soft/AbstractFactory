@@ -1,6 +1,6 @@
 package com.company;
 
-public class Interior extends Door{
+public class Interior implements Door{
     private String doorhandle;
     private String lock;
     private String material;
